@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-10-02T18:36:35.554780",
+  "target_images": 10000,
+  "total_downloaded": 261,
+  "total_valid": 261,
+  "total_unique": 261,
+  "meets_10k_target": false,
+  "splits": {
+    "train_ratio": 0.7,
+    "train_count": 182,
+    "val_ratio": 0.15,
+    "val_count": 39,
+    "test_ratio": 0.15,
+    "test_count": 40,
+    "leakage_prevention": "Group-aware survey partitioning & SHA256 deduplication applied"
+  },
+  "sources": [
+    {
+      "code": "subpipe",
+      "name": "SubPipe Dataset (Subsea Pipeline Inspection)",
+      "target_count": 10030,
+      "actual_downloaded": 0,
+      "valid_count": 0,
+      "unique_count": 0,
+      "license": "Creative Commons Attribution 4.0"
+    },
+    {
+      "code": "ai4shipwrecks",
+      "name": "AI4Shipwrecks Sonar Dataset",
+      "target_count": 1250,
+      "actual_downloaded": 0,
+      "valid_count": 0,
+      "unique_count": 0,
+      "license": "Research & Academic Use"
+    },
+    {
+      "code": "milco_nomobo",
+      "name": "MILCO / NOMBO Target Classification",
+      "target_count": 850,
+      "actual_downloaded": 261,
+      "valid_count": 261,
+      "unique_count": 261,
+      "license": "CC BY 4.0"
+    },
+    {
+      "code": "aquascan",
+      "name": "AquaScan-1K Marine Search & Target",
+      "target_count": 1024,
+      "actual_downloaded": 0,
+      "valid_count": 0,
+      "unique_count": 0,
+      "license": "Open Access CC-BY"
+    },
+    {
+      "code": "kiost_uxo",
+      "name": "KIOST Underwater UXO & Anomaly Dataset",
+      "target_count": 680,
+      "actual_downloaded": 0,
+      "valid_count": 0,
+      "unique_count": 0,
+      "license": "Institutional Research License"
+    }
+  ]
+}

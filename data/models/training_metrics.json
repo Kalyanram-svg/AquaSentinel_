@@ -1,0 +1,160 @@
+{
+  "model_architecture": "SonarNeuralDetector-ResNet-FCOS-Head",
+  "dataset": "MILCO/NOMBO Side-Scan Sonar",
+  "epochs": 25,
+  "batch_size": 8,
+  "best_val_loss": 0.8991,
+  "train_time_seconds": 207.2,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.5287,
+      "val_loss": 3.3012,
+      "lr": 0.000996
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.7048,
+      "val_loss": 0.8991,
+      "lr": 0.000984
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.4699,
+      "val_loss": 1.1007,
+      "lr": 0.000965
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3068,
+      "val_loss": 2.6616,
+      "lr": 0.000938
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.1883,
+      "val_loss": 2.7605,
+      "lr": 0.000905
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.1616,
+      "val_loss": 2.2391,
+      "lr": 0.000864
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.1319,
+      "val_loss": 2.8089,
+      "lr": 0.000819
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.1136,
+      "val_loss": 2.5248,
+      "lr": 0.000768
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.1046,
+      "val_loss": 2.4848,
+      "lr": 0.000713
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.0987,
+      "val_loss": 2.5142,
+      "lr": 0.000655
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.0933,
+      "val_loss": 2.5499,
+      "lr": 0.000594
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.0874,
+      "val_loss": 2.4776,
+      "lr": 0.000531
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.0882,
+      "val_loss": 2.5382,
+      "lr": 0.000469
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.0855,
+      "val_loss": 2.5414,
+      "lr": 0.000406
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.0862,
+      "val_loss": 2.5991,
+      "lr": 0.000345
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.0859,
+      "val_loss": 2.464,
+      "lr": 0.000287
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.0787,
+      "val_loss": 2.5986,
+      "lr": 0.000232
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.0793,
+      "val_loss": 2.5045,
+      "lr": 0.000181
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.0789,
+      "val_loss": 2.5336,
+      "lr": 0.000136
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.0766,
+      "val_loss": 2.5066,
+      "lr": 9.5e-05
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.0786,
+      "val_loss": 2.4971,
+      "lr": 6.2e-05
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.0775,
+      "val_loss": 2.5436,
+      "lr": 3.5e-05
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.0726,
+      "val_loss": 2.5524,
+      "lr": 1.6e-05
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.0757,
+      "val_loss": 2.5612,
+      "lr": 4e-06
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.0779,
+      "val_loss": 2.5526,
+      "lr": 0.0
+    }
+  ]
+}

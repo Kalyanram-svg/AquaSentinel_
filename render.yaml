@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: aquasentinel-backend
+    runtime: python
+    buildCommand: pip install --no-cache-dir -r requirements.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ALLOWED_ORIGINS
+        value: https://aquasentinel-sepia.vercel.app,http://localhost:5173,http://127.0.0.1:5173
+      - key: ENVIRONMENT
+        value: production

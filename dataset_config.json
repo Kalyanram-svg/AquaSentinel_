@@ -1,0 +1,45 @@
+{
+  "datasets": {
+    "subpipe": {
+      "name": "SubPipe Dataset",
+      "enabled": true,
+      "official_url": "https://zenodo.org/records/12666132",
+      "download_url": "https://zenodo.org/records/12666132/files/SubPipe.zip?download=1",
+      "target_count": 10030,
+      "expected_sha256": null
+    },
+    "ai4shipwrecks": {
+      "name": "AI4Shipwrecks Dataset",
+      "enabled": true,
+      "official_url": "https://umfieldrobotics.github.io/ai4shipwrecks/",
+      "download_url": "https://raw.githubusercontent.com/umfieldrobotics/ai4shipwrecks/main/dataset_info.json",
+      "target_count": 1250,
+      "expected_sha256": null
+    },
+    "milco_nomobo": {
+      "name": "MILCO / NOMBO Target Classification",
+      "enabled": true,
+      "official_url": "https://doi.org/10.6084/m9.figshare.24574879",
+      "download_url": "https://figshare.com/ndownloader/articles/24574879/versions/1",
+      "target_count": 850,
+      "expected_sha256": null
+    },
+    "aquascan": {
+      "name": "AquaScan-1K Marine Search",
+      "enabled": true,
+      "official_url": "https://zenodo.org/records/18771165",
+      "download_url": "https://zenodo.org/records/18771165/files/AquaScan_Sample.zip?download=1",
+      "target_count": 1024,
+      "expected_sha256": null
+    },
+    "kiost_uxo": {
+      "name": "KIOST Underwater UXO Dataset",
+      "enabled": false,
+      "official_url": "https://sciwatch.kiost.ac.kr/handle/2020.kiost/48581",
+      "download_url": null,
+      "target_count": 680,
+      "expected_sha256": null,
+      "notes": "Requires institutional research approval prior to direct download."
+    }
+  }
+}
